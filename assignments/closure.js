@@ -1,9 +1,19 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
+function georgeFlexington() {
+  console.log("I am the Lord of Gains.");
+  const decree = "Go ye forth, get JACKED, TAN, and JUICY AF";
 
-
+  function swolepatrickHenry() {
+    const swolepatrickHenrySaying = "Give me gainz, or give me death!";
+    console.log(
+      `I am SwolePatrick, and I got this decree from General George Flexington ${decree}. And to that I say ${swolepatrickHenrySaying}`
+    );
+  }
+  swolepatrickHenry();
+}
+georgeFlexington();
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
-
 
 // ==== Challenge 2: Create a counter function ====
 const counter = () => {
